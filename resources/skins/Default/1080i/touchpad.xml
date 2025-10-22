@@ -6,15 +6,15 @@
             <label>TOUCHPAD OVERLAY ACTIVE</label>
             <width>800</width>
             <height>60</height>
-            <posx>200</posx>
-            <posy>100</posy>
+            <posx>240</posx>
+            <posy>60</posy>
             <font>font13</font>
             <textcolor>FFFFFFFF</textcolor>
             <align>center</align>
             <aligny>center</aligny>
         </label>
 
-        <!-- Up zone -->
+        <!-- Up -->
         <button id="1001" label="UP">
             <width>300</width>
             <height>100</height>
@@ -22,7 +22,7 @@
             <posy>100</posy>
         </button>
 
-        <!-- Down zone -->
+        <!-- Down -->
         <button id="1002" label="DOWN">
             <width>300</width>
             <height>100</height>
@@ -30,7 +30,7 @@
             <posy>880</posy>
         </button>
 
-        <!-- Left zone -->
+        <!-- Left -->
         <button id="1003" label="LEFT">
             <width>100</width>
             <height>300</height>
@@ -38,7 +38,7 @@
             <posy>390</posy>
         </button>
 
-        <!-- Right zone -->
+        <!-- Right -->
         <button id="1004" label="RIGHT">
             <width>100</width>
             <height>300</height>
@@ -62,7 +62,7 @@
             <posy>880</posy>
         </button>
 
-        <!-- Exit Overlay -->
+        <!-- Close Overlay -->
         <button id="9999" label="CLOSE">
             <width>200</width>
             <height>100</height>
