@@ -7,7 +7,7 @@ addon_path = addon.getAddonInfo('path')
 
 class TouchOverlay(xbmcgui.WindowXMLDialog):
     def onInit(self):
-        xbmc.log("TouchOverlay initialized", xbmc.LOGNOTICE)
+        xbmc.log("TouchOverlay initialized", xbmc.LOGINFO)
 
     def onClick(self, controlId):
         if controlId == 1001:
@@ -25,7 +25,7 @@ class TouchOverlay(xbmcgui.WindowXMLDialog):
         elif controlId == 9999:
             self.close()
         else:
-            xbmc.log(f"Unknown button clicked: {controlId}", xbmc.LOGNOTICE)
+            xbmc.log(f"Unknown button clicked: {controlId}", xbmc.LOGINFO)
 
 # Launch the overlay
 dialog = TouchOverlay('touchpad.xml', addon_path)
