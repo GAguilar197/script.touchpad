@@ -1,0 +1,18 @@
+<addon id="script.touchpad"
+       name="Touchpad D-Pad"
+       version="1.0.0"
+       provider-name="GastonAG">
+
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+
+  <extension point="xbmc.python.script" library="resources/lib/default.py" />
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Touch zone overlay for Kodi</summary>
+    <description lang="en">Provides a virtual D-pad overlay to simulate remote control actions on touch devices using mouse or screen taps.</description>
+    <platform>all</platform>
+  </extension>
+
+</addon>
