@@ -27,7 +27,6 @@ class TouchOverlay(xbmcgui.WindowXMLDialog):
         else:
             xbmc.log(f"Unknown button clicked: {controlId}", xbmc.LOGINFO)
 
-# Launch the overlay
 dialog = TouchOverlay('touchpad.xml', addon_path)
 dialog.doModal()
 del dialog

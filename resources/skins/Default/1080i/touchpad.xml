@@ -1,0 +1,74 @@
+<window type="dialog">
+    <controls>
+
+        <!-- Debug label -->
+        <label id="1">
+            <label>TOUCHPAD OVERLAY ACTIVE</label>
+            <width>800</width>
+            <height>60</height>
+            <posx>200</posx>
+            <posy>100</posy>
+            <font>font13</font>
+            <textcolor>FFFFFFFF</textcolor>
+            <align>center</align>
+            <aligny>center</aligny>
+        </label>
+
+        <!-- Up zone -->
+        <button id="1001" label="UP">
+            <width>300</width>
+            <height>100</height>
+            <posx>490</posx>
+            <posy>100</posy>
+        </button>
+
+        <!-- Down zone -->
+        <button id="1002" label="DOWN">
+            <width>300</width>
+            <height>100</height>
+            <posx>490</posx>
+            <posy>880</posy>
+        </button>
+
+        <!-- Left zone -->
+        <button id="1003" label="LEFT">
+            <width>100</width>
+            <height>300</height>
+            <posx>100</posx>
+            <posy>390</posy>
+        </button>
+
+        <!-- Right zone -->
+        <button id="1004" label="RIGHT">
+            <width>100</width>
+            <height>300</height>
+            <posx>1080</posx>
+            <posy>390</posy>
+        </button>
+
+        <!-- Select/Center -->
+        <button id="1005" label="SELECT">
+            <width>300</width>
+            <height>200</height>
+            <posx>490</posx>
+            <posy>390</posy>
+        </button>
+
+        <!-- Back -->
+        <button id="1006" label="BACK">
+            <width>200</width>
+            <height>100</height>
+            <posx>100</posx>
+            <posy>880</posy>
+        </button>
+
+        <!-- Exit Overlay -->
+        <button id="9999" label="CLOSE">
+            <width>200</width>
+            <height>100</height>
+            <posx>1080</posx>
+            <posy>880</posy>
+        </button>
+
+    </controls>
+</window>
